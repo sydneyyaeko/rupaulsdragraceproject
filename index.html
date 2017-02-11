@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Who's Your Favorite Drag Race Queen?</title>
+
+		<!-- Linked to css style sheet -->
+		<link rel="stylesheet" href="style.css">
+
+		<!-- Add fancy Google font - connected to CSS -->
+		<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="row">
+					<form>
+						<div class="form-group">
+							<h1>HEY QUEEN!</h1><br>
+							<h3>Type in the name of your favorite Drag Race queen, to find out what my reaction is. Good luck, and don't frock it up.</h3>
+						</div>
+						<div class="form-group">
+							<input id="userdata" class="form-control">
+						</div>
+						<div class="form group">
+							<!-- Running a function for the button to 	search for horoscope info -->
+							<button type="button" onclick="queen()" class="btn-btn-primary btn-lg">Find Out</button>
+						</div>
+					</form>
+
+					<div>
+						<h2 id= "yourQueen"></h2>
+						<p id= "myResponse"></p>
+						<img id="icon" src="">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="main.js"></script>	
+	</body>
+</html>
